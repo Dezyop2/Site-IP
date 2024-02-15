@@ -13,5 +13,5 @@ downloadButton.addEventListener("mouseup", function() {
 });
 
 function game() {
-    window.location.href = "http://localhost/nws/Site-IP/game";
+    window.location.href = "https://lebouvierwilliam.fr/Site-IP/game";
 }
