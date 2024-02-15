@@ -21,7 +21,7 @@ body {
     display: flex;
     margin: 25px 25px;
     justify-content: center;
-    background-color: #1C2837;
+    background: linear-gradient(90deg, #14202b, #1C2837);
     border-radius: 30px;
     width: 25%;
     height: 50px;
@@ -49,7 +49,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 25px 25px;
-    background-color: #1C2837;
+    background: linear-gradient(90deg, #14202b, #1C2837);
     border-radius: 30px;
     width: 25%;
     cursor: pointer;
