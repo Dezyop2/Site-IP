@@ -13,7 +13,7 @@ body {
 }
 
 * {
-    color: black;
+    color: #ffffff95;
     font-weight: 900;
 }
 
@@ -21,20 +21,22 @@ body {
     display: flex;
     margin: 25px 25px;
     justify-content: center;
-    background-color: #9893DA;
+    background-color: #1C2837;
     border-radius: 30px;
     width: 25%;
     height: 50px;
     cursor: pointer;
-    transition: transform 0.2s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .cv:hover {
+    transition: 0.3s ease-in-out;
+    background-color: #18222f;
     transform: scale(1.025);
 }
 
 .cv:active {
-    transform: scale(1.05);
+    transform: scale(1.075);
 }
 
 .cv p {
@@ -47,7 +49,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 25px 25px;
-    background-color: #9893DA;
+    background-color: #1C2837;
     border-radius: 30px;
     width: 25%;
     cursor: pointer;
@@ -60,6 +62,6 @@ body {
 
 .liens {
     text-decoration: none;
-    color: #000000 !important;
+    color: #ffffff95 !important;
     margin-bottom: 10px;
 }
