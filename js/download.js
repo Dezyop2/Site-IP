@@ -11,3 +11,7 @@ downloadButton.addEventListener("click", function() {
 downloadButton.addEventListener("mouseup", function() {
     downloadButton.classList.remove("clicked");
 });
+
+function game() {
+    window.location.href = "http://localhost/nws/Site-IP/game";
+}
